@@ -1,0 +1,87 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 170%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pizza-main {
+	background-image: url("../img/pizza.jpg");
+	min-height: 468px;
+	width: 100%
+	
+}
+
+#order-btn {
+	margin-left: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.main-text {
+	padding: 175px 15px;
+	color: white;
+	text-shadow: 2px 2px black;
+	
+}
+
+.h1-big {
+	font-size: 310%
+}
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+.test {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 0px;
+	border-left: .3px solid black; 
+	min-height: 300px;
+}
+
+.info {
+	padding-top: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.info-head {
+	padding-bottom: 0px;
+}
