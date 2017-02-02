@@ -58,15 +58,6 @@ a:active {
 	font-size: 310%
 }
 
-
-.grow { 
-    transition: all .2s ease-in-out; 
-}
-
-.grow:hover { 
-    transform: scale(1.1); 
-}
-
 .test {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
